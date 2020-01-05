@@ -57,7 +57,7 @@
 		219AA0A718BF78A4000B68AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		219AA0AE18BF78A4000B68AB /* POSInputStreamLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POSInputStreamLibraryTests-Info.plist"; sourceTree = "<group>"; };
 		219AA0B018BF78A4000B68AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		219AA0B218BF78A4000B68AB /* POSInputStreamLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POSInputStreamLibraryTests.m; sourceTree = "<group>"; };
+		219AA0B218BF78A4000B68AB /* POSInputStreamLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = POSInputStreamLibraryTests.m; path = ../Tests/POSInputStreamLibraryTests/POSInputStreamLibraryTests.m; sourceTree = "<group>"; };
 		219AA0BE18BF7C5B000B68AB /* POSBlobInputStream-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "POSBlobInputStream-Prefix.pch"; sourceTree = "<group>"; };
 		219AA0CD18C07E77000B68AB /* POSRunLoopRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSRunLoopRunner.h; sourceTree = "<group>"; };
 		219AA0CE18C07E77000B68AB /* POSRunLoopRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSRunLoopRunner.m; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		219AA0D118C07E77000B68AB /* POSBlobInputStreamMockDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSBlobInputStreamMockDataSource.m; sourceTree = "<group>"; };
 		219AA0D218C07E77000B68AB /* POSBlobInputStreamMockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSBlobInputStreamMockDelegate.h; sourceTree = "<group>"; };
 		219AA0D318C07E77000B68AB /* POSBlobInputStreamMockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSBlobInputStreamMockDelegate.m; sourceTree = "<group>"; };
-		219AA0D718C07E81000B68AB /* POSInputStreamLibraryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POSInputStreamLibraryTests.h; sourceTree = "<group>"; };
+		219AA0D718C07E81000B68AB /* POSInputStreamLibraryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = POSInputStreamLibraryTests.h; path = ../Tests/POSInputStreamLibraryTests/POSInputStreamLibraryTests.h; sourceTree = "<group>"; };
 		21AF2FFD1B1F2FC800531F38 /* NSInputStream+POS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSInputStream+POS.h"; path = "include/NSInputStream+POS.h"; sourceTree = "<group>"; };
 		21AF2FFE1B1F2FC800531F38 /* NSInputStream+POS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInputStream+POS.m"; sourceTree = "<group>"; };
 		21AF2FFF1B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSAdjustedAssetReaderIOS7.h; sourceTree = "<group>"; };
@@ -162,7 +162,8 @@
 				21AF300D1B1F2FC800531F38 /* POSLocking.m */,
 				219AA09918BF78A4000B68AB /* Supporting Files */,
 			);
-			path = POSInputStreamLibrary;
+			name = POSInputStreamLibrary;
+			path = Source/POSInputStreamLibrary;
 			sourceTree = "<group>";
 		};
 		219AA09918BF78A4000B68AB /* Supporting Files */ = {
@@ -201,7 +202,8 @@
 				219AA0CD18C07E77000B68AB /* POSRunLoopRunner.h */,
 				219AA0CE18C07E77000B68AB /* POSRunLoopRunner.m */,
 			);
-			path = Helpers;
+			name = Helpers;
+			path = ../Tests/POSInputStreamLibraryTests/Helpers;
 			sourceTree = "<group>";
 		};
 		219AA0CF18C07E77000B68AB /* Mocks */ = {
@@ -212,7 +214,8 @@
 				219AA0D218C07E77000B68AB /* POSBlobInputStreamMockDelegate.h */,
 				219AA0D318C07E77000B68AB /* POSBlobInputStreamMockDelegate.m */,
 			);
-			path = Mocks;
+			name = Mocks;
+			path = ../Tests/POSInputStreamLibraryTests/Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
