@@ -9,9 +9,9 @@
 #import "POSInputStreamLibraryTests.h"
 
 #import "POSBlobInputStream.h"
-#import "POSBlobInputStreamMockDataSource.h"
-#import "POSBlobInputStreamMockDelegate.h"
-#import "POSRunLoopRunner.h"
+#import "Mocks/POSBlobInputStreamMockDataSource.h"
+#import "Mocks/POSBlobInputStreamMockDelegate.h"
+#import "Helpers/POSRunLoopRunner.h"
 
 @implementation POSBlobInputStreamLibraryTests {
     NSInputStream *_blobStream;
