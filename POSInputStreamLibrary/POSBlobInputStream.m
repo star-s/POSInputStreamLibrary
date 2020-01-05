@@ -183,7 +183,7 @@ static void POSRunLoopPerformCallBack(void *info);
     NSError *dataSourceError = [_dataSource error];
     if (dataSourceError) {
         return [NSError errorWithDomain:POSBlobInputStreamErrorDomain
-                                   code:POSBlobInputStreamErrorCodeDataSourceFailure
+                                   code:codeDataSourceFailure
                                userInfo:@{ NSUnderlyingErrorKey : dataSourceError }];
     } else {
         return nil;

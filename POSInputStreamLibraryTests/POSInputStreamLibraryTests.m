@@ -193,7 +193,7 @@
     XCTAssertTrue(loopResult == POSRunLoopResultTimeout, @"Stream should be scheduled.");
     XCTAssertTrue([failureStream streamStatus] == NSStreamStatusError, @"Ensure stream is in error state.");
     XCTAssertEqualObjects([[failureStream streamError] domain], POSBlobInputStreamErrorDomain, @"Stream error should be with specified domain.");
-    XCTAssertTrue([[failureStream streamError] code] == POSBlobInputStreamErrorCodeDataSourceFailure, @"Stream error should be with open error code.");
+    XCTAssertTrue([[failureStream streamError] code] == codeDataSourceFailure, @"Stream error should be with open error code.");
 	XCTAssertEqualObjects([_streamDelegate numberForEvent:NSStreamEventOpenCompleted], @0, @"Should be 1 OpenCompleted event");
 	XCTAssertEqualObjects([_streamDelegate numberForEvent:NSStreamEventErrorOccurred], @1, @"Should be 1 ErrorOccurred event");
     XCTAssertEqualObjects([_streamDelegate totalEventCount], @1, @"No other events should be emitted.");
@@ -209,7 +209,7 @@
     XCTAssertTrue(loopResult == POSRunLoopResultTimeout, @"Stream should be scheduled.");
     XCTAssertTrue([failureStream streamStatus] == NSStreamStatusError, @"Ensure stream is in error state.");
     XCTAssertEqualObjects([[failureStream streamError] domain], POSBlobInputStreamErrorDomain, @"Stream error should be with specified domain.");
-    XCTAssertTrue([[failureStream streamError] code] == POSBlobInputStreamErrorCodeDataSourceFailure, @"Stream error should be with open error code.");
+    XCTAssertTrue([[failureStream streamError] code] == codeDataSourceFailure, @"Stream error should be with open error code.");
 	XCTAssertEqualObjects([_streamDelegate numberForEvent:NSStreamEventOpenCompleted], @0, @"Should be 1 OpenCompleted event");
 	XCTAssertEqualObjects([_streamDelegate numberForEvent:NSStreamEventErrorOccurred], @1, @"Should be 1 ErrorOccurred event");
     XCTAssertEqualObjects([_streamDelegate totalEventCount], @1, @"No other events should be emitted.");

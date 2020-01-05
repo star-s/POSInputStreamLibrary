@@ -6,7 +6,9 @@
 //  Copyright (c) 2013 Pavel Osipov. All rights reserved.
 //
 
-#import <AssetsLibrary/AssetsLibrary.h>
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface NSInputStream (POS)
 
@@ -17,3 +19,5 @@
 + (NSInputStream *)pos_inputStreamForAFNetworkingWithAssetURL:(NSURL *)assetURL;
 
 @end
+
+NS_ASSUME_NONNULL_END

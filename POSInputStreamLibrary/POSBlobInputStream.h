@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-FOUNDATION_EXTERN NSString * const POSBlobInputStreamErrorDomain;
+NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSUInteger, POSBlobInputStreamErrorCode) {
-    POSBlobInputStreamErrorCodeDataSourceFailure = 0
+extern NSErrorDomain const POSBlobInputStreamErrorDomain;
+
+typedef NS_ERROR_ENUM(POSBlobInputStreamErrorDomain, POSBlobInputStreamError) {
+    codeDataSourceFailure = 0
 };
 
 @protocol POSBlobInputStreamDataSource;
@@ -24,3 +26,5 @@ typedef NS_ENUM(NSUInteger, POSBlobInputStreamErrorCode) {
 - (id)initWithDataSource:(NSObject<POSBlobInputStreamDataSource> *)dataSource;
 
 @end
+
+NS_ASSUME_NONNULL_END
