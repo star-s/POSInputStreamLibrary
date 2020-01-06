@@ -22,8 +22,12 @@ typedef NS_ERROR_ENUM(POSBlobInputStreamErrorDomain, POSBlobInputStreamError) {
 
 @property (nonatomic, assign) BOOL shouldNotifyCoreFoundationAboutStatusChange;
 
+- (instancetype)init NS_UNAVAILABLE;
+- (instancetype)initWithData:(NSData *)data NS_UNAVAILABLE;
+- (nullable instancetype)initWithURL:(NSURL *)url NS_UNAVAILABLE;
+
 // Designated initializer.
-- (id)initWithDataSource:(NSObject<POSBlobInputStreamDataSource> *)dataSource;
+- (instancetype)initWithDataSource:(NSObject<POSBlobInputStreamDataSource> *)dataSource;
 
 @end
 
