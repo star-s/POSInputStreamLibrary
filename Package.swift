@@ -10,6 +10,9 @@ let package = Package(
         .library(
             name: "POSInputStreamLibrary",
             targets: ["POSInputStreamLibrary"]),
+	     .library(
+	        name: "POSInputStreamCoreLibrary",
+	        targets: ["POSInputStreamCoreLibrary"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,7 +23,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "POSInputStreamLibrary",
-            dependencies: []),
+            dependencies: ["POSInputStreamCoreLibrary"]),
+	    .target(
+	        name: "POSInputStreamCoreLibrary",
+	        dependencies: []),
         .testTarget(
             name: "POSInputStreamLibraryTests",
             dependencies: ["POSInputStreamLibrary"]),
