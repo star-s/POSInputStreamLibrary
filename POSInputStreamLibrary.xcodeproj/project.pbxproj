@@ -16,14 +16,14 @@
 		219AA0D418C07E77000B68AB /* POSRunLoopRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 219AA0CE18C07E77000B68AB /* POSRunLoopRunner.m */; };
 		219AA0D518C07E77000B68AB /* POSBlobInputStreamMockDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 219AA0D118C07E77000B68AB /* POSBlobInputStreamMockDataSource.m */; };
 		219AA0D618C07E77000B68AB /* POSBlobInputStreamMockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 219AA0D318C07E77000B68AB /* POSBlobInputStreamMockDelegate.m */; };
-		21AF300E1B1F2FC800531F38 /* NSInputStream+POS.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF2FFE1B1F2FC800531F38 /* NSInputStream+POS.m */; };
-		21AF300F1B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30001B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.m */; };
-		21AF30101B1F2FC800531F38 /* POSAdjustedAssetReaderIOS8.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30021B1F2FC800531F38 /* POSAdjustedAssetReaderIOS8.m */; };
-		21AF30111B1F2FC800531F38 /* POSBlobInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30051B1F2FC800531F38 /* POSBlobInputStream.m */; };
-		21AF30121B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30071B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.m */; };
-		21AF30131B1F2FC800531F38 /* POSFastAssetReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF300A1B1F2FC800531F38 /* POSFastAssetReader.m */; };
-		21AF30141B1F2FC800531F38 /* POSLocking.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF300D1B1F2FC800531F38 /* POSLocking.m */; };
-		21B9079A1B9487F400666D28 /* ALAssetsLibrary+POS.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B907991B9487F400666D28 /* ALAssetsLibrary+POS.m */; };
+		A55ED3A623C3697F001D3DAC /* POSBlobInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A55ED39323C3697F001D3DAC /* POSBlobInputStream.m */; };
+		A55ED3A723C3697F001D3DAC /* POSLocking.m in Sources */ = {isa = PBXBuildFile; fileRef = A55ED39523C3697F001D3DAC /* POSLocking.m */; };
+		A55ED3A823C3697F001D3DAC /* POSAdjustedAssetReaderIOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = A55ED39B23C3697F001D3DAC /* POSAdjustedAssetReaderIOS7.m */; };
+		A55ED3A923C3697F001D3DAC /* NSInputStream+POS.m in Sources */ = {isa = PBXBuildFile; fileRef = A55ED39E23C3697F001D3DAC /* NSInputStream+POS.m */; };
+		A55ED3AA23C3697F001D3DAC /* POSAdjustedAssetReaderIOS8.m in Sources */ = {isa = PBXBuildFile; fileRef = A55ED3A023C3697F001D3DAC /* POSAdjustedAssetReaderIOS8.m */; };
+		A55ED3AB23C3697F001D3DAC /* POSBlobInputStreamAssetDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A55ED3A123C3697F001D3DAC /* POSBlobInputStreamAssetDataSource.m */; };
+		A55ED3AC23C3697F001D3DAC /* POSFastAssetReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A55ED3A323C3697F001D3DAC /* POSFastAssetReader.m */; };
+		A55ED3AD23C3697F001D3DAC /* ALAssetsLibrary+POS.m in Sources */ = {isa = PBXBuildFile; fileRef = A55ED3A523C3697F001D3DAC /* ALAssetsLibrary+POS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,25 +66,25 @@
 		219AA0D218C07E77000B68AB /* POSBlobInputStreamMockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSBlobInputStreamMockDelegate.h; sourceTree = "<group>"; };
 		219AA0D318C07E77000B68AB /* POSBlobInputStreamMockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSBlobInputStreamMockDelegate.m; sourceTree = "<group>"; };
 		219AA0D718C07E81000B68AB /* POSInputStreamLibraryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = POSInputStreamLibraryTests.h; path = ../Tests/POSInputStreamLibraryTests/POSInputStreamLibraryTests.h; sourceTree = "<group>"; };
-		21AF2FFD1B1F2FC800531F38 /* NSInputStream+POS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSInputStream+POS.h"; path = "include/NSInputStream+POS.h"; sourceTree = "<group>"; };
-		21AF2FFE1B1F2FC800531F38 /* NSInputStream+POS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInputStream+POS.m"; sourceTree = "<group>"; };
-		21AF2FFF1B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSAdjustedAssetReaderIOS7.h; sourceTree = "<group>"; };
-		21AF30001B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSAdjustedAssetReaderIOS7.m; sourceTree = "<group>"; };
-		21AF30011B1F2FC800531F38 /* POSAdjustedAssetReaderIOS8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSAdjustedAssetReaderIOS8.h; sourceTree = "<group>"; };
-		21AF30021B1F2FC800531F38 /* POSAdjustedAssetReaderIOS8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSAdjustedAssetReaderIOS8.m; sourceTree = "<group>"; };
-		21AF30031B1F2FC800531F38 /* POSAssetReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSAssetReader.h; sourceTree = "<group>"; };
-		21AF30041B1F2FC800531F38 /* POSBlobInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POSBlobInputStream.h; path = include/POSBlobInputStream.h; sourceTree = "<group>"; };
-		21AF30051B1F2FC800531F38 /* POSBlobInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSBlobInputStream.m; sourceTree = "<group>"; };
-		21AF30061B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POSBlobInputStreamAssetDataSource.h; path = include/POSBlobInputStreamAssetDataSource.h; sourceTree = "<group>"; };
-		21AF30071B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSBlobInputStreamAssetDataSource.m; sourceTree = "<group>"; };
-		21AF30081B1F2FC800531F38 /* POSBlobInputStreamDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POSBlobInputStreamDataSource.h; path = include/POSBlobInputStreamDataSource.h; sourceTree = "<group>"; };
-		21AF30091B1F2FC800531F38 /* POSFastAssetReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSFastAssetReader.h; sourceTree = "<group>"; };
-		21AF300A1B1F2FC800531F38 /* POSFastAssetReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSFastAssetReader.m; sourceTree = "<group>"; };
-		21AF300B1B1F2FC800531F38 /* POSInputStreamLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POSInputStreamLibrary.h; path = include/POSInputStreamLibrary.h; sourceTree = "<group>"; };
-		21AF300C1B1F2FC800531F38 /* POSLocking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSLocking.h; sourceTree = "<group>"; };
-		21AF300D1B1F2FC800531F38 /* POSLocking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSLocking.m; sourceTree = "<group>"; };
-		21B907981B9487F400666D28 /* ALAssetsLibrary+POS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+POS.h"; sourceTree = "<group>"; };
-		21B907991B9487F400666D28 /* ALAssetsLibrary+POS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+POS.m"; sourceTree = "<group>"; };
+		A55ED39123C3697F001D3DAC /* POSBlobInputStreamDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSBlobInputStreamDataSource.h; sourceTree = "<group>"; };
+		A55ED39223C3697F001D3DAC /* POSBlobInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSBlobInputStream.h; sourceTree = "<group>"; };
+		A55ED39323C3697F001D3DAC /* POSBlobInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSBlobInputStream.m; sourceTree = "<group>"; };
+		A55ED39523C3697F001D3DAC /* POSLocking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSLocking.m; sourceTree = "<group>"; };
+		A55ED39623C3697F001D3DAC /* POSAdjustedAssetReaderIOS8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSAdjustedAssetReaderIOS8.h; sourceTree = "<group>"; };
+		A55ED39823C3697F001D3DAC /* NSInputStream+POS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInputStream+POS.h"; sourceTree = "<group>"; };
+		A55ED39923C3697F001D3DAC /* POSBlobInputStreamAssetDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSBlobInputStreamAssetDataSource.h; sourceTree = "<group>"; };
+		A55ED39A23C3697F001D3DAC /* POSInputStreamLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSInputStreamLibrary.h; sourceTree = "<group>"; };
+		A55ED39B23C3697F001D3DAC /* POSAdjustedAssetReaderIOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSAdjustedAssetReaderIOS7.m; sourceTree = "<group>"; };
+		A55ED39C23C3697F001D3DAC /* ALAssetsLibrary+POS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+POS.h"; sourceTree = "<group>"; };
+		A55ED39D23C3697F001D3DAC /* POSFastAssetReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSFastAssetReader.h; sourceTree = "<group>"; };
+		A55ED39E23C3697F001D3DAC /* NSInputStream+POS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInputStream+POS.m"; sourceTree = "<group>"; };
+		A55ED39F23C3697F001D3DAC /* POSLocking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSLocking.h; sourceTree = "<group>"; };
+		A55ED3A023C3697F001D3DAC /* POSAdjustedAssetReaderIOS8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSAdjustedAssetReaderIOS8.m; sourceTree = "<group>"; };
+		A55ED3A123C3697F001D3DAC /* POSBlobInputStreamAssetDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSBlobInputStreamAssetDataSource.m; sourceTree = "<group>"; };
+		A55ED3A223C3697F001D3DAC /* POSAssetReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSAssetReader.h; sourceTree = "<group>"; };
+		A55ED3A323C3697F001D3DAC /* POSFastAssetReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSFastAssetReader.m; sourceTree = "<group>"; };
+		A55ED3A423C3697F001D3DAC /* POSAdjustedAssetReaderIOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSAdjustedAssetReaderIOS7.h; sourceTree = "<group>"; };
+		A55ED3A523C3697F001D3DAC /* ALAssetsLibrary+POS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+POS.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,29 +141,11 @@
 		219AA09818BF78A4000B68AB /* POSInputStreamLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				21B907981B9487F400666D28 /* ALAssetsLibrary+POS.h */,
-				21B907991B9487F400666D28 /* ALAssetsLibrary+POS.m */,
-				21AF2FFD1B1F2FC800531F38 /* NSInputStream+POS.h */,
-				21AF2FFE1B1F2FC800531F38 /* NSInputStream+POS.m */,
-				21AF2FFF1B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.h */,
-				21AF30001B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.m */,
-				21AF30011B1F2FC800531F38 /* POSAdjustedAssetReaderIOS8.h */,
-				21AF30021B1F2FC800531F38 /* POSAdjustedAssetReaderIOS8.m */,
-				21AF30031B1F2FC800531F38 /* POSAssetReader.h */,
-				21AF30041B1F2FC800531F38 /* POSBlobInputStream.h */,
-				21AF30051B1F2FC800531F38 /* POSBlobInputStream.m */,
-				21AF30061B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.h */,
-				21AF30071B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.m */,
-				21AF30081B1F2FC800531F38 /* POSBlobInputStreamDataSource.h */,
-				21AF30091B1F2FC800531F38 /* POSFastAssetReader.h */,
-				21AF300A1B1F2FC800531F38 /* POSFastAssetReader.m */,
-				21AF300B1B1F2FC800531F38 /* POSInputStreamLibrary.h */,
-				21AF300C1B1F2FC800531F38 /* POSLocking.h */,
-				21AF300D1B1F2FC800531F38 /* POSLocking.m */,
+				A55ED38F23C3697F001D3DAC /* POSInputStreamCoreLibrary */,
+				A55ED39423C3697F001D3DAC /* POSInputStreamDataSource */,
 				219AA09918BF78A4000B68AB /* Supporting Files */,
 			);
-			name = POSInputStreamLibrary;
-			path = Source/POSInputStreamLibrary;
+			path = POSInputStreamLibrary;
 			sourceTree = "<group>";
 		};
 		219AA09918BF78A4000B68AB /* Supporting Files */ = {
@@ -216,6 +198,57 @@
 			);
 			name = Mocks;
 			path = ../Tests/POSInputStreamLibraryTests/Mocks;
+			sourceTree = "<group>";
+		};
+		A55ED38F23C3697F001D3DAC /* POSInputStreamCoreLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				A55ED39023C3697F001D3DAC /* include */,
+				A55ED39323C3697F001D3DAC /* POSBlobInputStream.m */,
+			);
+			name = POSInputStreamCoreLibrary;
+			path = Source/POSInputStreamCoreLibrary;
+			sourceTree = SOURCE_ROOT;
+		};
+		A55ED39023C3697F001D3DAC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A55ED39123C3697F001D3DAC /* POSBlobInputStreamDataSource.h */,
+				A55ED39223C3697F001D3DAC /* POSBlobInputStream.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A55ED39423C3697F001D3DAC /* POSInputStreamDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				A55ED39723C3697F001D3DAC /* include */,
+				A55ED39C23C3697F001D3DAC /* ALAssetsLibrary+POS.h */,
+				A55ED3A523C3697F001D3DAC /* ALAssetsLibrary+POS.m */,
+				A55ED39E23C3697F001D3DAC /* NSInputStream+POS.m */,
+				A55ED3A223C3697F001D3DAC /* POSAssetReader.h */,
+				A55ED39D23C3697F001D3DAC /* POSFastAssetReader.h */,
+				A55ED3A323C3697F001D3DAC /* POSFastAssetReader.m */,
+				A55ED3A423C3697F001D3DAC /* POSAdjustedAssetReaderIOS7.h */,
+				A55ED39B23C3697F001D3DAC /* POSAdjustedAssetReaderIOS7.m */,
+				A55ED39623C3697F001D3DAC /* POSAdjustedAssetReaderIOS8.h */,
+				A55ED3A023C3697F001D3DAC /* POSAdjustedAssetReaderIOS8.m */,
+				A55ED3A123C3697F001D3DAC /* POSBlobInputStreamAssetDataSource.m */,
+				A55ED39F23C3697F001D3DAC /* POSLocking.h */,
+				A55ED39523C3697F001D3DAC /* POSLocking.m */,
+			);
+			name = POSInputStreamDataSource;
+			path = Source/POSInputStreamDataSource;
+			sourceTree = SOURCE_ROOT;
+		};
+		A55ED39723C3697F001D3DAC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A55ED39A23C3697F001D3DAC /* POSInputStreamLibrary.h */,
+				A55ED39823C3697F001D3DAC /* NSInputStream+POS.h */,
+				A55ED39923C3697F001D3DAC /* POSBlobInputStreamAssetDataSource.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,14 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21AF30141B1F2FC800531F38 /* POSLocking.m in Sources */,
-				21AF30131B1F2FC800531F38 /* POSFastAssetReader.m in Sources */,
-				21B9079A1B9487F400666D28 /* ALAssetsLibrary+POS.m in Sources */,
-				21AF30121B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.m in Sources */,
-				21AF30111B1F2FC800531F38 /* POSBlobInputStream.m in Sources */,
-				21AF300F1B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.m in Sources */,
-				21AF30101B1F2FC800531F38 /* POSAdjustedAssetReaderIOS8.m in Sources */,
-				21AF300E1B1F2FC800531F38 /* NSInputStream+POS.m in Sources */,
+				A55ED3A823C3697F001D3DAC /* POSAdjustedAssetReaderIOS7.m in Sources */,
+				A55ED3AD23C3697F001D3DAC /* ALAssetsLibrary+POS.m in Sources */,
+				A55ED3AB23C3697F001D3DAC /* POSBlobInputStreamAssetDataSource.m in Sources */,
+				A55ED3AC23C3697F001D3DAC /* POSFastAssetReader.m in Sources */,
+				A55ED3AA23C3697F001D3DAC /* POSAdjustedAssetReaderIOS8.m in Sources */,
+				A55ED3A723C3697F001D3DAC /* POSLocking.m in Sources */,
+				A55ED3A623C3697F001D3DAC /* POSBlobInputStream.m in Sources */,
+				A55ED3A923C3697F001D3DAC /* NSInputStream+POS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
